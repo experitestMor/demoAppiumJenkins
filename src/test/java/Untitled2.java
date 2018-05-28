@@ -3,6 +3,8 @@ import io.appium.java_client.remote.IOSMobileCapabilityType;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.remote.MobileCapabilityType;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
@@ -26,8 +28,6 @@ public class Untitled2 {
         dc.setCapability("testName", testName);
         dc.setCapability("accessKey", accessKey);
         dc.setCapability(MobileCapabilityType.UDID, "0cacc0ade2a6869bb3578d52c58b9d7693b832bd");
-        dc.setCapability(MobileCapabilityType.APP, "cloud:com.experitest.ExperiBank");
-        dc.setCapability("appVersion", "2363");
         dc.setCapability(IOSMobileCapabilityType.BUNDLE_ID, "com.experitest.ExperiBank");
         dc.setCapability("instrumentApp", true);
         driver = new IOSDriver<>(new URL("https://sales.experitest.com:443/wd/hub"), dc);
@@ -37,14 +37,11 @@ public class Untitled2 {
     @Test
     public void testUntitled() {
         driver.findElement(By.xpath("//*[@placeholder='Username']")).sendKeys("company");
+        driver.findElement(By.xpath("//*[@placeholder='Password']")).click();
         driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("company");
-        driver.findElement(By.xpath("//*[@accessibilityLabel='loginButton']")).click();
-        driver.findElement(By.xpath("//*[@accessibilityLabel='makePaymentButton']")).click();
-        driver.findElement(By.xpath("//*[@accessibilityLabel='cancelButton']")).click();
-        driver.findElement(By.xpath("//*[@accessibilityLabel='Mortgage Request']")).click();
-        driver.findElement(By.xpath("//*[@accessibilityLabel='cancelButton']")).click();
-        driver.findElement(By.xpath("//*[@accessibilityLabel='logoutButton']")).click();
-        driver.executeScript("seetest:client.deviceAction(\"Home\")");
+        new WebDriverWait(driver, 30).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='loginButton']")));
+        driver.findElement(By.xpath("//*[@text='loginButton']")).click();
+        driver.findElement(By.xpath("//*[@text='logoutButton']")).click();
     }
 
     @AfterMethod

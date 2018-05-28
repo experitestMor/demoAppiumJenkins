@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1" verbose="1" parallel="tests" >
-    <test name="Chrome" >
+    <test name="1st test" >
         <classes>
             <class name="Untitled" />
         </classes>
     </test>
 
-    <test name="Firefox">
+    <test name="2nd test">
         <classes>
             <class name="Untitled2"/>
         </classes>
