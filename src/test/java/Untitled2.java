@@ -15,7 +15,7 @@ import java.util.logging.Level;
 public class Untitled2 {
     private String reportDirectory = "reports";
     private String reportFormat = "xml";
-    private String testName = "Untitled";
+    private String testName = "Jenkins iOS";
     private String accessKey = "eyJ4cC51IjoxMzY1NDgsInhwLnAiOjIsInhwLm0iOiJNQSIsImFsZyI6IkhTMjU2In0.eyJleHAiOjE4NDI1MTQzOTYsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.zGcYeXkTAcXyNohf9hespTor7r_U9BNYZL0yNbW7Gbg";
     protected IOSDriver<IOSElement> driver = null;
 
@@ -27,10 +27,13 @@ public class Untitled2 {
         dc.setCapability("reportFormat", reportFormat);
         dc.setCapability("testName", testName);
         dc.setCapability("accessKey", accessKey);
-        dc.setCapability(MobileCapabilityType.UDID, "0cacc0ade2a6869bb3578d52c58b9d7693b832bd");
+//        dc.setCapability(MobileCapabilityType.UDID, "0cacc0ade2a6869bb3578d52c58b9d7693b832bd");
+        dc.setCapability("deviceQuery","@os='ios'");
         dc.setCapability(IOSMobileCapabilityType.BUNDLE_ID, "com.experitest.ExperiBank");
+        dc.setCapability(IOSMobileCapabilityType.APP_NAME,"cloud:com.experitest.ExperiBank");
         dc.setCapability("instrumentApp", true);
         driver = new IOSDriver<>(new URL("https://sales.experitest.com:443/wd/hub"), dc);
+        System.out.println(driver.getCapabilities().getCapability("reportUrl"));
         driver.setLogLevel(Level.INFO);
     }
 
