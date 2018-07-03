@@ -43,7 +43,7 @@ public class Untitled2 {
         driver.findElement(By.xpath("//*[@placeholder='Password']")).click();
         driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("company");
         new WebDriverWait(driver, 30).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='loginButton']")));
-        driver.findElement(By.xpath("//*[@text='Login']")).click();
+        driver.findElement(By.xpath("//*[@text='loginButton']")).click();
         driver.findElement(By.xpath("//*[@text='logoutButton']")).click();
     }
 
