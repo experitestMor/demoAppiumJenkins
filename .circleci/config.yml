@@ -147,9 +147,9 @@ workflows:
       - build_ipa
       - build_apk
       - deploy:
-        requires:
-            - build_apk
-            - build_ipa
+         requires:
+          - build_apk
+          - build_ipa
       - test:
-        requires:
-            - deploy
+         requires:
+         - deploy
