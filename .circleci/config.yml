@@ -17,7 +17,7 @@ jobs:
       MAVEN_OPTS: -Xmx3200m
 
     steps:
-      - git clone https://github.com/experitestMor/Eribank
+      - git clone https://github.com/experitestMor/Eribank.git
       # Download and cache dependencies
       - run: mvn clean assemble
 
