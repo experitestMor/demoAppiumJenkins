@@ -4,10 +4,6 @@
     <list default="true" id="e498f7e3-cbbb-4b46-ba70-a726074aebcc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Untitled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Untitled.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Untitled2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Untitled2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Untitled.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Untitled.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Untitled2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Untitled2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,8 +70,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -460,7 +456,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530697106538</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CircleCI fix2">
+      <created>1530793158866</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530793158866</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CircleCI fix3">
+      <created>1530793278026</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530793278026</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -508,10 +518,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.46822995" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39978212" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.49669966" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4956427" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07942431" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07942431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -537,7 +547,9 @@
     <MESSAGE value="Demonstration" />
     <MESSAGE value="CircleCI" />
     <MESSAGE value="CircleCI fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="CircleCI fix" />
+    <MESSAGE value="CircleCI fix2" />
+    <MESSAGE value="CircleCI fix3" />
+    <option name="LAST_COMMIT_MESSAGE" value="CircleCI fix3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -960,8 +972,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="323">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
