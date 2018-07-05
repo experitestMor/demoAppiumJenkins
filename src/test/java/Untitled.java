@@ -44,6 +44,7 @@ public class Untitled {
     public void testUntitled() {
         driver.findElement(By.xpath("//*[@hint='Username']")).sendKeys("company");
         driver.findElement(By.xpath("//*[@hint='Password']")).sendKeys("company");
+
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Login']")));
         driver.findElement(By.xpath("//*[@text='Login']")).click();
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Logout']")));
