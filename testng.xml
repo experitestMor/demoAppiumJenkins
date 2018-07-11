@@ -12,5 +12,16 @@
             <class name="Untitled2"/>
         </classes>
     </test>
+    <test name="3st test" >
+        <classes>
+            <class name="Untitled" />
+        </classes>
+    </test>
+
+    <test name="4nd test">
+        <classes>
+            <class name="Untitled2"/>
+        </classes>
+    </test>
 
 </suite>

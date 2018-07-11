@@ -21,7 +21,7 @@ public class Untitled {
     protected AndroidDriver<AndroidElement> driver = null;
 
     DesiredCapabilities dc = new DesiredCapabilities();
-
+    @Parameters
     @BeforeMethod
     public void setUp() throws MalformedURLException {
         dc.setCapability("reportDirectory", reportDirectory);
