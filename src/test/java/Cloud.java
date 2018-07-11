@@ -17,9 +17,9 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
 public class Cloud{
 
     private static final String APPLICATIONS_URL = "/applications";
@@ -29,7 +29,7 @@ public class Cloud{
     private String webPage= "https://" + host + ":" + port + "/api/v1";
     private String authStringEnc;
 
-    @Before
+    @BeforeMethod
     public void setup() {
         authStringEnc = System.getenv("accessKey");
     }
@@ -88,7 +88,7 @@ public class Cloud{
         System.out.println(finalString);
 
         System.out.println(String.format("Got response buffer: %s", responseBuffer.toString()));
-        Assert.assertTrue("Did not get Success Status", responseBuffer.toString().contains("\"status\":\"SUCCESS\""));
+        Assert.assertTrue( responseBuffer.toString().contains("\"status\":\"SUCCESS\""),"Did not get Success Status");
         return finalString;
     }
     protected void printPost(URL url, HttpURLConnection httpURLConnection, String query) throws IOException {
@@ -142,7 +142,7 @@ public class Cloud{
         //print result
         System.out.println(responseBuffer.toString());
         boolean isResponseValid = httpURLConnection.getResponseCode() < 300;
-        Assert.assertTrue("Did not get valid response", isResponseValid);
+        Assert.assertTrue(isResponseValid,"Did not get valid response");
         return responseBuffer.toString();
 
     }
