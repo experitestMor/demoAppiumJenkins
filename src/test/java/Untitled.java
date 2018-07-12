@@ -16,7 +16,7 @@ import java.util.logging.Level;
 public class Untitled {
     private String reportDirectory = "reports";
     private String reportFormat = "xml";
-    private String testName = "Untitled";
+    private String testName = "Jenkins Android";
     private String accessKey = "eyJ4cC51IjoxMzY1NDgsInhwLnAiOjIsInhwLm0iOiJNQSIsImFsZyI6IkhTMjU2In0.eyJleHAiOjE4NDY1ODg1NTQsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.yJrbvQhXxRMu5CzZOjLw2hUXqyDejrQkO-lC7WROGKw";
     protected AndroidDriver<AndroidElement> driver = null;
 
