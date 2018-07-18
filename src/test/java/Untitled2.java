@@ -28,6 +28,7 @@ public class Untitled2 {
         dc.setCapability("testName", testName);
         dc.setCapability("accessKey", accessKey);
         dc.setCapability("deviceQuery", "@os='ios'");
+        dc.setCapability(IOSMobileCapabilityType.APP_NAME, "com.experitest.ExperiBank");
         dc.setCapability(IOSMobileCapabilityType.BUNDLE_ID, "com.experitest.ExperiBank");
         dc.setCapability("instrumentApp", true);
         driver = new IOSDriver<>(new URL("https://sales.experitest.com:443/wd/hub"), dc);

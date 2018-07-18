@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e498f7e3-cbbb-4b46-ba70-a726074aebcc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Untitled2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Untitled2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Untitled.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Untitled.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Untitled.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="468">
+              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,17 +49,17 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Untitled2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Untitled2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Untitled2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,9 +102,9 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/src/test/java/Cloud.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Untitled2.java" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/src/test/java/Untitled.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Untitled2.java" />
       </list>
     </option>
   </component>
@@ -124,10 +125,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-554" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,6 +137,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,8 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,19 +504,17 @@
       <option name="project" value="LOCAL" />
       <updated>1531395276827</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Build Final - iOS &amp; Android">
+      <created>1531395377663</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531395377663</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Untitled2_(1) - 2018.07.04 at 15h 26m 48s.xml">
-      <configuration name="Untitled2 (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_mor_hazan_IdeaProjects_demoAppiumJenkins_testng_xml - 2018.07.04 at 15h 28m 01s.xml">
-      <configuration name="C:/Users/mor.hazan/IdeaProjects/demoAppiumJenkins/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_mor_hazan_IdeaProjects_demoAppiumJenkins_testng_xml - 2018.07.06 at 12h 13m 06s.xml">
-      <configuration name="C:/Users/mor.hazan/IdeaProjects/demoAppiumJenkins/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_mor_hazan_IdeaProjects_demoAppiumJenkins_testng_xml - 2018.07.06 at 12h 13m 21s.xml">
       <configuration name="C:/Users/mor.hazan/IdeaProjects/demoAppiumJenkins/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -537,26 +536,36 @@
     <history-entry file="C__Users_mor_hazan_IdeaProjects_demoAppiumJenkins_testng_xml - 2018.07.11 at 17h 36m 32s.xml">
       <configuration name="C:/Users/mor.hazan/IdeaProjects/demoAppiumJenkins/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Untitled_testUntitled - 2018.07.12 at 14h 55m 26s.xml">
+      <configuration name="Untitled.testUntitled" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mor_hazan_IdeaProjects_demoAppiumJenkins_testng_xml - 2018.07.12 at 15h 00m 53s.xml">
+      <configuration name="C:/Users/mor.hazan/IdeaProjects/demoAppiumJenkins/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mor_hazan_IdeaProjects_demoAppiumJenkins_testng_xml - 2018.07.12 at 15h 02m 31s.xml">
+      <configuration name="C:/Users/mor.hazan/IdeaProjects/demoAppiumJenkins/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1293" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Applications" order="1" sideWeight="0.50217867" side_tool="true" weight="0.18506667" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3278867" />
+      <window_info id="Applications" order="1" sideWeight="0.5035461" side_tool="true" weight="0.18506667" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.46822995" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38562092" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4956427" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16993465" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4956427" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.18506667" />
-      <window_info anchor="right" id="Cloud" order="8" side_tool="true" visible="true" weight="0.2592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.18933333" />
+      <window_info anchor="right" id="Cloud" order="8" side_tool="true" weight="0.2592" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="6" />
@@ -569,7 +578,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3278867" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -587,7 +595,8 @@
     <MESSAGE value="CircleCI fix3sad" />
     <MESSAGE value="Final" />
     <MESSAGE value="Build Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build Final" />
+    <MESSAGE value="Build Final - iOS &amp; Android" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build Final - iOS &amp; Android" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -971,16 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Untitled2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -997,15 +996,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Untitled.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="468">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Untitled2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
