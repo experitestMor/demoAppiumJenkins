@@ -1,24 +1,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1" verbose="1" parallel="tests" >
-    <test name="1st test" >
+    <test name="1st test Android" >
         <classes>
             <class name="Untitled" />
         </classes>
     </test>
 
-    <test name="2nd test">
+    <test name="1st test iOS">
         <classes>
             <class name="Untitled2"/>
         </classes>
     </test>
-    <test name="3st test" >
+    <test name="2nd test Android" >
         <classes>
             <class name="Untitled" />
         </classes>
     </test>
 
-    <test name="4nd test">
+    <test name="2nd test iOS">
         <classes>
             <class name="Untitled2"/>
         </classes>
