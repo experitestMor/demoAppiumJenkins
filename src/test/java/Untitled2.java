@@ -1,4 +1,5 @@
 //package <set your test package>;
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.IOSMobileCapabilityType;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
@@ -16,7 +17,7 @@ public class Untitled2 {
     private String reportDirectory = "reports";
     private String reportFormat = "xml";
     private String testName = "Jenkins iOS";
-    private String accessKey = "eyJ4cC51IjoxMzY1NDgsInhwLnAiOjIsInhwLm0iOiJNQSIsImFsZyI6IkhTMjU2In0.eyJleHAiOjE4NDczNTk3OTIsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.VqFw1Fbd_W0kPMvrHCNgQSZCnKhRrNkk14la1HrAPso";
+    private String accessKey = "eyJ4cC51IjoxMzY1NDgsInhwLnAiOjIsInhwLm0iOiJNVFUwT1Rrd01EQTRNRFF5TVEiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE4NjUzMTkxNzAsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.XDtrtB9uiB0Pddfm2LwqRdoXgvigE0GBBiNop56y84k";
     protected IOSDriver<IOSElement> driver = null;
 
     DesiredCapabilities dc = new DesiredCapabilities();
@@ -27,10 +28,15 @@ public class Untitled2 {
         dc.setCapability("reportFormat", reportFormat);
         dc.setCapability("testName", testName);
         dc.setCapability("accessKey", accessKey);
+
+        dc.setCapability("deviceQuery", "@os='ios'");
+        dc.setCapability(MobileCapabilityType.APP, "cloud:com.experitest.ExperiBank");
 //        dc.setCapability(MobileCapabilityType.UDID, "0cacc0ade2a6869bb3578d52c58b9d7693b832bd");
         dc.setCapability(IOSMobileCapabilityType.BUNDLE_ID, "com.experitest.ExperiBank");
+
         driver = new IOSDriver<>(new URL("https://sales.experitest.com:443/wd/hub"), dc);
         driver.setLogLevel(Level.INFO);
+//        String st= (String)driver.getCapabilities().getCapability("reportURL");
     }
 
     @Test
@@ -55,6 +61,7 @@ public class Untitled2 {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+
+//        driver.quit();
     }
 }

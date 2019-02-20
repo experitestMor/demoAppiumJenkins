@@ -20,6 +20,7 @@
 
     <test name="2nd test iOS">
         <classes>
+
             <class name="Untitled2"/>
         </classes>
     </test>
